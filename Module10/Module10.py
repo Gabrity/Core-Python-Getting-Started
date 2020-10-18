@@ -1,3 +1,0 @@
-
-
-from airtravel import Flight
