@@ -1,0 +1,51 @@
+Scalar types:
+int - arbitrary precision integer
+float - 64 bit floating point
+None - the null boject
+bool - true and false
+
+int:
+0b - binary
+0o - octal
+0x - hexadeciaml
+
+>>> 0c11
+9
+>>> int(-3.5)
+-3
+>>> int('496')
+496
+
+float:
+>>> 3e8
+300000000.0
+>>> float(7)
+7.0
+>>> float('1.6')
+1.6
+>>> float('nan')
+nan
+>>> float('inf')
+inf
+
+bool:
+>>> bool(0)
+False
+>>> bool(42)
+True
+>>> bool(-1)
+True
+>>> bool(0.0)
+False
+>>> bool(0.207)
+True
+>>> bool([])
+False
+>>> bool([11,4])
+True
+>>> bool('')
+False
+>>> bool('Spam')
+True
+>>> bool('Flase')
+True
