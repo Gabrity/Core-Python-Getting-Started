@@ -1,0 +1,6 @@
+cmd => python
+
+REPL - read, evaluate, print loop
+PEP - python enhancement propsal
+PEP20 - the zen of python
+
